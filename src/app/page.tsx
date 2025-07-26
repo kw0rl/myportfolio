@@ -155,7 +155,7 @@ export default function Home() {
             <h2 className="text-2xl font-serif font-bold mb-2" style={{ color: "#7a7975"}}>Fun Facts About Me</h2>
             <details className="mb-2 group cursor-pointer">
               <summary className="font-serif text-lg text-[#4b3a2f] group-open:font-bold transition duration-200 hover:text-[#2f2a24] hover:font-bold hover:-translate-y-1 cursor-pointer">Music</summary>
-              <div className="ml-4 text-[#4b3a2f]">I really love music especially taylor swift's songs which always be with me in my ups and downs</div>
+              <div className="ml-4 text-[#4b3a2f]">I really love music especially taylor swift&apos;s songs which always be with me in my ups and downs</div>
             </details>
             <details className="mb-2 group cursor-pointer">
               <summary className="font-serif text-lg text-[#4b3a2f] group-open:font-bold transition duration-200 hover:text-[#2f2a24] hover:font-bold hover:-translate-y-1 cursor-pointer">Poem</summary>
