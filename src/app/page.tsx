@@ -100,7 +100,7 @@ export default function Home() {
       {/* Sidebar/Drawer */}
       {sidebarVisible && (
         <aside
-          className={`fixed top-0 right-0 h-full w-64 text-brown shadow-lg z-50 flex flex-col p-8 gap-6 border-l border-brown ${sidebarClosing ? 'animate-slide-out' : 'animate-slide-in'}`}
+          className="fixed top-0 left-0 w-64 h-full bg-[#edebe7] shadow-lg z-50 flex flex-col p-6 animate-slide-in"
           style={{ backgroundColor: "#edebe7" }}
         >
           <button
@@ -111,11 +111,11 @@ export default function Home() {
           >
             ×
           </button>
-          <Link href="/about" className="hover:underline transition text-brown font-serif text-lg" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>About Me</Link>
-          <Link href="/project" className="hover:underline transition text-brown font-serif text-lg" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>Project</Link>
-          <Link href="/achievements" className="hover:underline transition text-brown font-serif text-lg" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>Achievement</Link>
-          <Link href="/poems" className="hover:underline transition text-brown font-serif text-lg" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>Poems</Link>
-          <Link href="/songs" className="hover:underline transition text-brown font-serif text-lg" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>Songs</Link>
+          <Link href="/about" className="hover:underline transition text-brown font-serif text-lg mb-2" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>About Me</Link>
+          <Link href="/project" className="hover:underline transition text-brown font-serif text-lg mb-2" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>Project</Link>
+          <Link href="/achievements" className="hover:underline transition text-brown font-serif text-lg mb-2" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>Achievement</Link>
+          <Link href="/poems" className="hover:underline transition text-brown font-serif text-lg mb-2" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>Poems</Link>
+          <Link href="/songs" className="hover:underline transition text-brown font-serif text-lg mb-2" onClick={handleCloseMenu} style={{ color: "#7a7975"}}>Songs</Link>
         </aside>
       )}
 
@@ -124,7 +124,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-8  rounded-lg ">
           {/* Left: Text */}
           <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left gap-6">
-            <h1 className="text-3xl md:text-5xl font-serif" style={{ color: "#7a7975"}} >AZRUL'S PORTFOLIO</h1>
+              <Image src="/uitm.png" alt="UiTM Logo" width={48} height={48} className="rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
             <p className="text-lg md:text-2xl text-[#4b3a2f] font-serif">Welcome to my site :)</p>
           </div>
           {/* Right: Image */}
@@ -172,10 +172,10 @@ export default function Home() {
         <div className="w-full max-w-4xl bg-[#f6f4f1] rounded-lg shadow p-8 border border-[#d6d1c4] flex flex-col gap-4 fade-in-up transition-transform duration-300">
           <h2 className="text-2xl font-serif font-bold text-[#2f2a24] mb-2" style={{ color: "#7a7975"}}>Education Timeline</h2>
           <ol className="relative border-l-2 border-[#d6d1c4] ml-4">
-             {/* SK Bukit Sawa */}
+            {/* SK Bukit Sawa */}
             <li className="mb-12 ml-6 flex flex-col items-center relative text-center">
               <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-[#d6d1c4] top-6"></div>
-              <Image src="/skbs.jpg" alt="SK Bukit Sawa Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <Image src="/skbs.jpg" alt="SK Bukit Sawa Logo" width={48} height={48} className="rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
               <h3 className="font-serif font-bold text-[#2f2a24] text-lg" style={{ color: '#7a7975' }}>Sekolah Kebangsaan Bukit Sawa</h3>
               <span className="text-[#7a7975] text-sm font-serif mb-1">UPSR</span>
               <span className="text-[#4b3a2f] text-base font-serif">2010 - 2015</span>
@@ -183,7 +183,7 @@ export default function Home() {
             {/* SMK Bukit Sawa */}
             <li className="mb-12 ml-6 flex flex-col items-center relative text-center">
               <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-[#d6d1c4] top-6"></div>
-              <Image src="/smkbs.jpg" alt="SMK Bukit Sawa Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <Image src="/smkbs.jpg" alt="SMK Bukit Sawa Logo" width={48} height={48} className="rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
               <h3 className="font-serif font-bold text-[#2f2a24] text-lg" style={{ color: '#7a7975' }}>Sekolah Menengah Kebangsaan Bukit Sawa</h3>
               <span className="text-[#7a7975] text-sm font-serif mb-1">SPM</span>
               <span className="text-[#4b3a2f] text-base font-serif">2016 - 2021</span>
@@ -191,7 +191,7 @@ export default function Home() {
             {/* Kolej Matrikulasi Pahang */}
             <li className="mb-12 ml-6 flex flex-col items-center relative text-center">
               <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-[#d6d1c4] top-6"></div>
-              <Image src="/kmp.png" alt="Kolej Matrikulasi Pahang Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <Image src="/kmp.png" alt="Kolej Matrikulasi Pahang Logo" width={48} height={48} className="rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
               <h3 className="font-serif font-bold text-[#2f2a24] text-lg" style={{ color: '#7a7975' }}>Kolej Matrikulasi Pahang</h3>
               <span className="text-[#7a7975] text-sm font-serif mb-1">Pure Science Module</span>
               <span className="text-[#4b3a2f] text-base font-serif">2021 - 2022</span>
@@ -199,7 +199,7 @@ export default function Home() {
             {/* UiTM */}
             <li className="ml-6 flex flex-col items-center relative text-center">
               <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-[#d6d1c4] top-6"></div>
-              <Image src="/uitm.png" alt="UiTM Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <Image src="/uitm.png" alt="UiTM Logo" width={48} height={48} className="rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
               <h3 className="font-serif font-bold text-[#2f2a24] text-lg" style={{ color: '#7a7975' }}>Universiti Teknologi MARA (UiTM)</h3>
               <span className="text-[#7a7975] text-sm font-serif mb-1">Bachelor in Computer Science (Hons.) Netcentric Computing</span>
               <span className="text-[#4b3a2f] text-base font-serif">2022 - 2025</span>
@@ -226,10 +226,10 @@ export default function Home() {
             className="w-full"
           >
             <SwiperSlide>
-              <Image src="/satu.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/satu.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/azrul.png" alt="azrul" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/azrul.png" alt="azrul" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
               <Image src="/dua.jpg" alt="Gallery 2" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
@@ -257,6 +257,38 @@ export default function Home() {
             </SwiperSlide>
             <SwiperSlide>
               <Image src="/sepuluh.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+=======
+              <Image src="/satu.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/azrul.png" alt="azrul" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/dua.jpg" alt="Gallery 2" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/tiga.jpg" alt="Gallery 3" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/empat.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/lima.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/enam.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/tujuh.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/lapan.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/sembilan.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src="/sepuluh.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             {/* Tambah SwiperSlide untuk gambar lain jika mahu */}
           </Swiper>
