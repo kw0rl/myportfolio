@@ -155,7 +155,7 @@ export default function Home() {
             <h2 className="text-2xl font-serif font-bold mb-2" style={{ color: "#7a7975"}}>Fun Facts About Me</h2>
             <details className="mb-2 group cursor-pointer">
               <summary className="font-serif text-lg text-[#4b3a2f] group-open:font-bold transition duration-200 hover:text-[#2f2a24] hover:font-bold hover:-translate-y-1 cursor-pointer">Music</summary>
-              <div className="ml-4 text-[#4b3a2f]">I really love music especially taylor swift&apos;s songs which always be with me in my ups and downs</div>
+              <div className="ml-4 text-[#4b3a2f]">I really love music especially taylor swift songs which always be with me in my ups and downs</div>
             </details>
             <details className="mb-2 group cursor-pointer">
               <summary className="font-serif text-lg text-[#4b3a2f] group-open:font-bold transition duration-200 hover:text-[#2f2a24] hover:font-bold hover:-translate-y-1 cursor-pointer">Poem</summary>
@@ -175,7 +175,7 @@ export default function Home() {
              {/* SK Bukit Sawa */}
             <li className="mb-12 ml-6 flex flex-col items-center relative text-center">
               <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-[#d6d1c4] top-6"></div>
-              <img src="/skbs.jpg" alt="SK Bukit Sawa Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <image src="/skbs.jpg" alt="SK Bukit Sawa Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
               <h3 className="font-serif font-bold text-[#2f2a24] text-lg" style={{ color: '#7a7975' }}>Sekolah Kebangsaan Bukit Sawa</h3>
               <span className="text-[#7a7975] text-sm font-serif mb-1">UPSR</span>
               <span className="text-[#4b3a2f] text-base font-serif">2010 - 2015</span>
@@ -183,7 +183,7 @@ export default function Home() {
             {/* SMK Bukit Sawa */}
             <li className="mb-12 ml-6 flex flex-col items-center relative text-center">
               <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-[#d6d1c4] top-6"></div>
-              <img src="/smkbs.jpg" alt="SMK Bukit Sawa Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <image src="/smkbs.jpg" alt="SMK Bukit Sawa Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
               <h3 className="font-serif font-bold text-[#2f2a24] text-lg" style={{ color: '#7a7975' }}>Sekolah Menengah Kebangsaan Bukit Sawa</h3>
               <span className="text-[#7a7975] text-sm font-serif mb-1">SPM</span>
               <span className="text-[#4b3a2f] text-base font-serif">2016 - 2021</span>
@@ -191,7 +191,7 @@ export default function Home() {
             {/* Kolej Matrikulasi Pahang */}
             <li className="mb-12 ml-6 flex flex-col items-center relative text-center">
               <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-[#d6d1c4] top-6"></div>
-              <img src="/kmp.png" alt="Kolej Matrikulasi Pahang Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <image src="/kmp.png" alt="Kolej Matrikulasi Pahang Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
               <h3 className="font-serif font-bold text-[#2f2a24] text-lg" style={{ color: '#7a7975' }}>Kolej Matrikulasi Pahang</h3>
               <span className="text-[#7a7975] text-sm font-serif mb-1">Pure Science Module</span>
               <span className="text-[#4b3a2f] text-base font-serif">2021 - 2022</span>
@@ -199,7 +199,7 @@ export default function Home() {
             {/* UiTM */}
             <li className="ml-6 flex flex-col items-center relative text-center">
               <div className="absolute w-3 h-3 bg-gray-400 rounded-full -left-1.5 border border-[#d6d1c4] top-6"></div>
-              <img src="/uitm.png" alt="UiTM Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <image src="/uitm.png" alt="UiTM Logo" className="w-12 h-12 rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
               <h3 className="font-serif font-bold text-[#2f2a24] text-lg" style={{ color: '#7a7975' }}>Universiti Teknologi MARA (UiTM)</h3>
               <span className="text-[#7a7975] text-sm font-serif mb-1">Bachelor in Computer Science (Hons.) Netcentric Computing</span>
               <span className="text-[#4b3a2f] text-base font-serif">2022 - 2025</span>
@@ -226,37 +226,37 @@ export default function Home() {
             className="w-full"
           >
             <SwiperSlide>
-              <img src="/satu.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/satu.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/azrul.png" alt="azrul" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/azrul.png" alt="azrul" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/dua.jpg" alt="Gallery 2" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/dua.jpg" alt="Gallery 2" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/tiga.jpg" alt="Gallery 3" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/tiga.jpg" alt="Gallery 3" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/empat.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/empat.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/lima.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/lima.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/enam.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/enam.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/tujuh.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/tujuh.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/lapan.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/lapan.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/sembilan.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/sembilan.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/sepuluh.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <image src="/sepuluh.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             {/* Tambah SwiperSlide untuk gambar lain jika mahu */}
           </Swiper>
