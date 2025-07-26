@@ -124,7 +124,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-8  rounded-lg ">
           {/* Left: Text */}
           <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left gap-6">
-              <Image src="/uitm.png" alt="UiTM Logo" width={48} height={48} className="rounded-full object-contain bg-white border border-[#d6d1c4] mb-2" />
+              <h1 className="text-3xl md:text-5xl font-serif" style={{ color: "#7a7975"}} >AZRUL&apos;S PORTFOLIO</h1>
             <p className="text-lg md:text-2xl text-[#4b3a2f] font-serif">Welcome to my site :)</p>
           </div>
           {/* Right: Image */}
