@@ -124,7 +124,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-8  rounded-lg ">
           {/* Left: Text */}
           <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left gap-6">
-            <h1 className="text-3xl md:text-5xl font-serif" style={{ color: "#7a7975"}} >AZRUL'S PORTFOLIO</h1>
+            <h1 className="text-3xl md:text-5xl font-serif" style={{ color: "#7a7975"}} >AZRUL&apos;S PORTFOLIO</h1>
             <p className="text-lg md:text-2xl text-[#4b3a2f] font-serif">Welcome to my site :)</p>
           </div>
           {/* Right: Image */}
