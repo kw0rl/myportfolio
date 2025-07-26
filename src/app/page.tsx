@@ -148,7 +148,7 @@ export default function Home() {
           {/* About Me (Ringkas) */}
           <div className="flex-1 bg-[#f6f4f1] rounded-lg shadow p-8 border border-[#d6d1c4] flex flex-col gap-4 transition-transform duration-300 ">
             <h2 className="text-2xl font-serif font-bold mb-2" style={{ color: "#7a7975"}}>About Me</h2>
-            <p className="text-[#4b3a2f] font-serif text-lg">Hi! my name is Azrul and i am a student from computer science faculty and also a final year student. I am so passionate about web development and design, and i love to learn new things.</p>
+            <p className="text-[#4b3a2f] font-serif text-lg">Hi! my name is Azrul and I am a student from computer science faculty and also a final year student. I am so passionate about web development and design, and I love to learn new things.</p>
           </div>
           {/* Fun Fact About Me (Accordion) */}
           <div className="flex-1 bg-[#f6f4f1] rounded-lg shadow p-8 border border-[#d6d1c4] flex flex-col gap-4">
