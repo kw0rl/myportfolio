@@ -232,65 +232,32 @@ export default function Home() {
               <Image src="/azrul.png" alt="azrul" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/dua.jpg" alt="Gallery 2" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/tiga.jpg" alt="Gallery 3" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/empat.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/lima.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/enam.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/tujuh.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/lapan.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/sembilan.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/sepuluh.jpg" alt="Gallery 1" className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-=======
-              <Image src="/satu.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="/azrul.png" alt="azrul" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
-            </SwiperSlide>
-            <SwiperSlide>
               <Image src="/dua.jpg" alt="Gallery 2" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
               <Image src="/tiga.jpg" alt="Gallery 3" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/empat.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/empat.jpg" alt="Gallery 4" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/lima.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/lima.jpg" alt="Gallery 5" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/enam.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/enam.jpg" alt="Gallery 6" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/tujuh.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/tujuh.jpg" alt="Gallery 7" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/lapan.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/lapan.jpg" alt="Gallery 8" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/sembilan.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/sembilan.jpg" alt="Gallery 9" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src="/sepuluh.jpg" alt="Gallery 1" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
+              <Image src="/sepuluh.jpg" alt="Gallery 10" width={400} height={256} className="w-full h-64 object-cover rounded-lg shadow bg-white p-4 transition-transform duration-300 hover:scale-105 hover:brightness-110" />
             </SwiperSlide>
-            {/* Tambah SwiperSlide untuk gambar lain jika mahu */}
           </Swiper>
         </div>
       </section>
