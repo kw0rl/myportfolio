@@ -100,7 +100,7 @@ export default function Home() {
       {/* Sidebar/Drawer */}
       {sidebarVisible && (
         <aside
-          className="fixed top-0 left-0 w-64 h-full bg-[#edebe7] shadow-lg z-50 flex flex-col p-6 animate-slide-in"
+          className="fixed top-0 right-0 w-64 h-full bg-[#edebe7] shadow-lg z-50 flex flex-col p-6 animate-slide-in"
           style={{ backgroundColor: "#edebe7" }}
         >
           <button
